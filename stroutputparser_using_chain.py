@@ -32,6 +32,6 @@ parser = StrOutputParser()
 
 chain = template1 | model | parser | template2 | model | parser
 
-result = chain.invoke({'topic':'black hole'})
+result = chain.invoke({'topic':'About RAPTORS Cricket Team Sarjapur, Bangalore'})
 
 print(result)
